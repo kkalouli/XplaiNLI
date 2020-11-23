@@ -41,5 +41,9 @@ The fine-tuned BERT model can be downloaded from here https://drive.google.com/f
 available within the GKR4NLI repository under *gnli/src/main/webapp*. To run the demo, clone and install the GKR4NLI code and modify the scripts *get_dl_inference_decision.py* and
 *read_hybrid_model_and_classify_sample.py* (within *gnli/src/main/webapp/*) to use the models available here. The frontend code of the demo is also available within the *gnli/src/main/webapp* folder of GKR4NLI.
 
+
+*** For convenience and illustration, we provide the *webapp* folder of GKR4NLI in this repository as well. To run the demo, however, you have to install the whole GKR4NLI
+project, as detailed above. ***
+
 # Contact 
 For troubleshooting, comments, ideas and discussions, please contact aikaterini-lida.kalouli(at)uni-konstanz.de or rita.sevastjanova(at)uni-konstanz.de
