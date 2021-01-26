@@ -17,6 +17,10 @@ CD-ROMs) please include the above citation.
 # Demo
 Check out XplaiNLI under http://bit.ly/XplaiNLI
 
+If you are rather interested in the performance of XplaiNLI, check out our online demo: http://bit.ly/Hy-NLI
+
+
+
 # License
 Copyright 2020 Aikaterini-Lida Kalouli and Rita Sevastjanova. GKR is a free-software discributed under the conditions of the Apache License 2.0, without warranty. See LICENSE file for more details. You should have received a copy of the LICENSE file with the source code. If not, please visit http://www.apache.org/licenses/ for more information. 
 
