@@ -5,11 +5,11 @@ a symbolic and a hybrid approach. Instead of targetting performance as Hy-NLI do
 it offers sketches of explanations for the features that lead to the decision of each component. The interface also allows interaction with the user. The user can define their 
 own heuristics as potential explanations for the decisions and also annotate the pair with the correct label. Find more details in our paper:
 
-*Kalouli, A.-L., R. Sevastjanova, R. Crouch, V. de Paiva and M. El-Assady. 2020. XplaiNLI: Explainable Natural Language Inferencethrough Visual Analytics. In Proceedings of the COLING 2020 System Demonstrations (link coming soon).*
+*Kalouli, A.-L., R. Sevastjanova, R. Crouch, V. de Paiva and M. El-Assady. 2020. XplaiNLI: Explainable Natural Language Inferencethrough Visual Analytics. In Proceedings of the COLING 2020 System Demonstrations (https://www.aclweb.org/anthology/2020.coling-demos.9/)*
 
 If you are interested in the performance of our system, check out our paper on Hy-NLI:
 
-*Kalouli, A.-L., R. Crouch and V. de Paiva. 2020. Hy-NLI: a Hybrid system for Natural Language Inference. In Proceedings of COLING 2020 (link coming soon).*
+*Kalouli, A.-L., R. Crouch and V. de Paiva. 2020. Hy-NLI: a Hybrid system for Natural Language Inference. In Proceedings of COLING 2020 (https://www.aclweb.org/anthology/2020.coling-main.459/).*
 
 If you use this software in writing scientific papers, or you use this software in any other medium serving scientists or students (e.g. web-sites,
 CD-ROMs) please include the above citation.
