@@ -49,8 +49,8 @@ z-index: 10000;
   SICK (Marelli et al, 2014) corpus. The symbolic approach computes inference based on a version of Natural Logic (Valencia, 1991; MacCartney, 2009)
   and on the Graphical Knowledge Representation (Kalouli et Crouch, 2018). The hybrid classifier is an MLP trained model.
   Please find more details in our paper: </p>
-  <p style="color:#3a707e"> Kalouli, A.-L., R. Crouch and V. de Paiva. 2020. Hy-NLI: a Hybrid system for Natural Language Inference. In Proceedings of COLING 2020. </p>
-  <p style="color:#3a707e"> Note that Hy-NLI targets performance, rather than explainability. If you are interested in the explainability of our system, check out our demo on XplaiNLI: http://bit.ly/XplaiNLI   </p>
+  <p style="color:#3a707e"> <i> Kalouli, A.-L., R. Crouch and V. de Paiva. 2020. Hy-NLI: a Hybrid system for Natural Language Inference. In Proceedings of COLING 2020. </i> </p>
+  <p style="color:#3a707e"> Note that Hy-NLI targets performance, rather than explainability. If you are interested in the explainability of our system, check out our demo on <a href="http://bit.ly/XplaiNLI">XplaiNLI</a>   </p>
 </div>
 
 <div id="code" >
@@ -71,7 +71,7 @@ z-index: 10000;
         <input type='text' name='hypothesis' id='hypothesis' style="width: 500px;"/><br/>
         <!--button class="btn btn-primary mb1" type="submit">Submit</button-->
   <!--     </form> -->
-  <button class="btn btn-primary mb1" type="submit">Submit</button>
+         <button class="btn btn-primary mb1" type="submit">Submit</button>
   </form>
 <br>
 <p class="tab instruction">You can also choose from the given examples:<br>
@@ -87,38 +87,12 @@ z-index: 10000;
 </div>
 	
 <br><br>
-<p class="tab instruction"> Premise: ${premise}</p> 
-<p class="tab instruction"> Hypothesis: ${hypothesis}</p> 
-<br> <br>
 <h3 style="color:#3a707e; position:relative; left:360px; top:-20px; width:200px; height:200px; border:none;"> GKR4NLI </h3>
 <img src="images_default/symb_tap.png" alt="tap_symb" style="position:relative; left:350px; top:-200px; width:130px; height:100px; border:none;">
-<% if(request.getAttribute("sym_label").equals("ENTAILMENT")){ %>
-		<img src="images_default/entail.png" alt="entail" style="position:relative; left:300px; top:-130px; width:50px; height:50px; border:none;">
-		<% } else if (request.getAttribute("sym_label").equals("CONTRADICTION")){ %>
-		<img src="images_default/contra.png" alt="contra" style="position:relative; left:300px; top:-130px; width:50px; height:50px; border:none;">
-		<% } else if (request.getAttribute("sym_label").equals("NEUTRAL")){ %>
-		<img src="images_default/neutral.png" alt="neutral" style="position:relative; left:300px; top:-130px; width:50px; height:50px; border:none;">
-				<% } %>
 <h3 style="color:#3a707e; position:relative; left:570px; top:-350px; width:200px; height:200px; border:none;"> BERT </h3>
 <img src="images_default/dl_tap.png" alt="tap_dl" style="position:relative; left:530px; top:-530px; width:130px; height:100px; border:none;">
-<% if(request.getAttribute("dl_label").equals("ENTAILMENT")){ %>
-		<img src="images_default/entail.png" alt="entail" style="position:relative; left:395px; top:-460px; width:50px; height:50px; border:none;">
-		<% } else if (request.getAttribute("dl_label").equals("CONTRADICTION")){ %>
-		<img src="images_default/contra.png" alt="contra" style="position:relative; left:395px; top:-460px; width:50px; height:50px; border:none;">
-		<% } else if (request.getAttribute("dl_label").equals("NEUTRAL")){ %>
-		<img src="images_default/neutral.png" alt="neutral" style="position:relative; left:395px; top:-460px; width:50px; height:50px; border:none;">
-		<% } %>
-<img src="images_default/funnel.png" alt="funnel" style="position:relative; left:220px; top:-380px; width:200px; height:100px; border:none;">
-<h3 style="color:#3a707e; position:relative; left:460px; top:-490px; width:200px; height:0px; border:none;"> Hy-NLI </h3>
-<% if(request.getAttribute("hy_label").equals("ENTAILMENT")){ %>
-		<img src="images_default/entail.png" alt="entail" style="position:relative; left:480px; top:-410px; width:50px; height:50px; border:none;">
-		<% } else if (request.getAttribute("hy_label").equals("CONTRADICTION")){ %>
-		<img src="images_default/contra.png" alt="contra" style="position:relative; left:480px; top:-410px; width:50px; height:50px; border:none;">
-		<% } else if (request.getAttribute("hy_label").equals("NEUTRAL")){ %>
-		<img src="images_default/neutral.png" alt="neutral" style="position:relative; left:480px; top:-410px; width:50px; height:50px; border:none;">
-		<% } %>
-
-
+<img src="images_default/funnel.png" alt="funnel" style="position:relative; left:270px; top:-400px; width:200px; height:100px; border:none;">
+<h3 style="color:#3a707e; position:relative; left:460px; top:-510px; width:200px; height:0px; border:none;"> Hy-NLI </h3>
 
 <div id="additionalInfo">
 	<h3 style="position:relative;top:-350px;" class="tab" id="publications">Publications</h3>
@@ -159,7 +133,6 @@ $(function() {
     spinner.show();
   });
 });
-
 </script>
   
 </body>
