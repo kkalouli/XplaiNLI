@@ -15,9 +15,9 @@ If you use this software in writing scientific papers, or you use this software 
 CD-ROMs) please include the above citation.
 
 # Demo
-Check out XplaiNLI under http://bit.ly/XplaiNLI
+Check out XplaiNLI under http://xplainli.nlitoolkit.de/
 
-If you are rather interested in the performance of XplaiNLI, check out our online demo: http://bit.ly/Hy-NLI
+If you are rather interested in the performance of XplaiNLI, check out our online demo: http://hynli.nlitoolkit.de/
 
 
 
