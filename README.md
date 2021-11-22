@@ -50,4 +50,4 @@ available within the GKR4NLI repository under *gnli/src/main/webapp*. To run the
 project, as detailed above. ***
 
 # Contact 
-For troubleshooting, comments, ideas and discussions, please contact aikaterini-lida.kalouli(at)uni-konstanz.de or rita.sevastjanova(at)uni-konstanz.de
+For troubleshooting, comments, ideas and discussions, please contact kalouli(at)cis.lmu.de or rita.sevastjanova(at)uni-konstanz.de
